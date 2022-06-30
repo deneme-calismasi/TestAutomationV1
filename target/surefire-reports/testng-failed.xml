@@ -5,13 +5,14 @@
     <classes>
       <class name="tests.MainTests">
         <methods>
-          <include name="orderNumberSite"/>
+          <include name="productAmountSite"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
           <include name="Setup"/>
           <include name="AfterClass"/>
           <include name="tearDown"/>
           <include name="beforeMethod"/>
+          <include name="orderAddBasketSite"/>
         </methods>
       </class> <!-- tests.MainTests -->
     </classes>

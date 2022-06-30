@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="181.843" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="242.631" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="TR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ERHANO~1\AppData\Local\Temp\surefire6079245625046836132\surefirebooter8543702599703311391.jar C:\Users\erhanorun\AppData\Local\Temp\surefire6079245625046836132 2022-06-29T11-40-47_808-jvmRun1 surefire1956518435229933885tmp surefire_04487449539856069114tmp"/>
+    <property name="sun.java.command" value="C:\Users\ERHANO~1\AppData\Local\Temp\surefire3643231370189551206\surefirebooter3950888958892618268.jar C:\Users\erhanorun\AppData\Local\Temp\surefire3643231370189551206 2022-06-30T20-00-02_603-jvmRun1 surefire6820706937793657247tmp surefire_03823588692612895071tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\erhanorun\IdeaProjects\TestAutomationV1\target\test-classes;C:\Users\erhanorun\IdeaProjects\TestAutomationV1\target\classes;C:\Users\erhanorun\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\erhanorun\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\erhanorun\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\erhanorun\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\erhanorun\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\erhanorun\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\erhanorun\.m2\repository\javax\interceptor\javax.interceptor-api\1.2.2\javax.interceptor-api-1.2.2.jar;C:\Users\erhanorun\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.2\webdrivermanager-5.0.2.jar;C:\Users\erhanorun\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\erhanorun\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\erhanorun\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;C:\Users\erhanorun\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;C:\Users\erhanorun\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;C:\Users\erhanorun\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\erhanorun\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\erhanorun\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\erhanorun\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\erhanorun\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\erhanorun\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\erhanorun\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\erhanorun\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\erhanorun\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;C:\Users\erhanorun\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;C:\Users\erhanorun\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\erhanorun\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\erhanorun\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\erhanorun\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\erhanorun\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\erhanorun\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\erhanorun\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\erhanorun\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\erhanorun\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\erhanorun\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\erhanorun\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\erhanorun\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\erhanorun\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\erhanorun\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\erhanorun\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\erhanorun\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\erhanorun\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\erhanorun\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\erhanorun\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\erhanorun\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\erhanorun\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\erhanorun\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\erhanorun\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\erhanorun\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\erhanorun\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\erhanorun\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\erhanorun\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\erhanorun\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\erhanorun\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\erhanorun\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\erhanorun"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ERHANO~1\AppData\Local\Temp\surefire6079245625046836132\surefirebooter8543702599703311391.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ERHANO~1\AppData\Local\Temp\surefire3643231370189551206\surefirebooter3950888958892618268.jar"/>
     <property name="sun.boot.class.path" value="C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\lib\resources.jar;C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\lib\rt.jar;C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\lib\sunrsasign.jar;C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\lib\jsse.jar;C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\lib\jce.jar;C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\lib\charsets.jar;C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\lib\jfr.jar;C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -44,6 +44,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1254"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file_encoding" value="UFT-8"/>
     <property name="localRepository" value="C:\Users\erhanorun\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
     <property name="java.io.tmpdir" value="C:\Users\ERHANO~1\AppData\Local\Temp\"/>
@@ -54,7 +55,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Users\erhanorun\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Users\erhanorun\.jdks\corretto-1.8.0_332\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Users\erhanorun\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\erhanorun\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
     <property name="java.vm.version" value="25.332-b08"/>
@@ -62,14 +63,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="addressAssertSite" classname="tests.MainTests" time="14.621"/>
-  <testcase name="birthdayTestSite" classname="tests.MainTests" time="7.348"/>
-  <testcase name="commentToProductSite" classname="tests.MainTests" time="12.187"/>
-  <testcase name="purchaseNumberOrderSite" classname="tests.MainTests" time="45.142"/>
-  <testcase name="orderAddBasketSite" classname="tests.MainTests" time="76.393"/>
-  <testcase name="orderDateSite" classname="tests.MainTests" time="4.622"/>
-  <testcase name="sortToAlphabeticallyAtoZSite" classname="tests.MainTests" time="2.352"/>
-  <testcase name="sortToAlphabeticallyZtoASite" classname="tests.MainTests" time="1.918"/>
-  <testcase name="sortByPriceUpSite" classname="tests.MainTests" time="1.393"/>
-  <testcase name="productAmountSite" classname="tests.MainTests" time="12.165"/>
+  <testcase name="addressAssertSite" classname="tests.MainTests" time="21.479"/>
+  <testcase name="productReturnTestSite" classname="tests.MainTests" time="40.898"/>
+  <testcase name="commentToProductSite" classname="tests.MainTests" time="13.88"/>
+  <testcase name="purchaseNumberOrderSite" classname="tests.MainTests" time="51.037"/>
+  <testcase name="orderAddBasketSite" classname="tests.MainTests" time="84.485"/>
+  <testcase name="orderDateSite" classname="tests.MainTests" time="7.142"/>
+  <testcase name="sortToAlphabeticallyAtoZSite" classname="tests.MainTests" time="2.565"/>
+  <testcase name="sortToAlphabeticallyZtoASite" classname="tests.MainTests" time="1.89"/>
+  <testcase name="sortByPriceUpSite" classname="tests.MainTests" time="1.845"/>
+  <testcase name="productAmountSite" classname="tests.MainTests" time="13.566"/>
 </testsuite>
