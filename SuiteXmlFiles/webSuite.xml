@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Web Suite" configfailurepolicy="continue" parallel="tests" thread-count="1">
+
+
+    <test name="Automation-Tests">
+        <classes>
+            <class name="tests.MainTests">
+                <methods>
+
+                    <include name="addressAssertSite"/>
+                    <include name="productReturnTestSite"/>
+                    <include name="commentToProductSite"/>
+                    <include name="purchaseNumberOrderSite"/>
+                    <include name="orderAddBasketSite"/>
+                    <include name="orderDateSite"/>
+                    <include name="sortToAlphabeticallyAtoZSite"/>
+                    <include name="sortToAlphabeticallyZtoASite"/>
+                    <include name="sortByPriceUpSite"/>
+                    <include name="productAmountSite"/>
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

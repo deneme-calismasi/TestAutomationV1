@@ -1,0 +1,36 @@
+# Created at 2022-06-28T15:48:25.154
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2022-06-28T15:48:33.937
+Unexpected IOException: 8,1,tests.MainTests,orderDateSite(tests.MainTests),null,Expected condition failed: waiting for presence of element located by: By.xpath: //*[@ng-repeat='order in orderList'][1]//*[@class='order-date ng-binding'] (tried for 60 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for presence of element located by: By.xpath: //*[@ng-repeat='order in orderList'][1]//*[@class='order-date ng-binding'] (tried for 60 second(s) with 500 milliseconds interval),MainTests.orderDateSite:76 \00BB Timeout Expected condition failed: waiting for pr...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@ng-repeat='order in orderList'][1]//*[@class='order-date ng-binding'] (tried for 60 second(s) with 500 milliseconds interval)\000A\0009at tests.MainTests.orderDateSite(MainTests.java:76)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[@ng-repeat='order in orderList'][1]//*[@class='order-date ng-binding']"}\000A  (Session info: chrome=103.0.5060.66)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TCMX-YZLM-EO'\002C ip: '172.22.170.49'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_332'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.66\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005CERHANO~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:52926}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: d3551f92db83cccf72162b50a14828dd\000A*** Element info: {Using=xpath\002C value=//*[@ng-repeat='order in orderList'][1]//*[@class='order-date ng-binding']}\000A\0009at tests.MainTests.orderDateSite(MainTests.java:76)\000A
+
+
+# Created at 2022-06-28T15:48:34.185
+Unexpected IOException: 5,1,tests.MainTests,addressAssertSite(tests.MainTests),tests.MainTests,null,null
+
+
+# Created at 2022-06-28T15:48:48.902
+Unexpected IOException with stream: Fatura Adresi :Mimar Sinan Mahallesi Begonya Sokak No 12 Daire 3 Fatih / İstanbul
+
+
+# Created at 2022-06-28T15:48:48.904
+Unexpected IOException with stream: true
+
+# Created at 2022-06-28T15:48:48.906
+Unexpected IOException with stream: 
+
+
+# Created at 2022-06-28T15:48:48.911
+Unexpected IOException: 6,1,tests.MainTests,addressAssertSite(tests.MainTests),null,null,null
+
+
+# Created at 2022-06-28T15:48:48.915
+Unexpected IOException: 5,1,tests.MainTests,orderAddBasketSite(tests.MainTests),tests.MainTests,null,null
+
+

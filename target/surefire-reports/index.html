@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Web_Suite">
+              <span class="suite-name border-passed">Web Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Web_Suite">
+                    <span>C:\Users\erhanorun\IdeaProjects\TestAutomationV1\SuiteXmlFiles\webSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Web_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Web_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Web_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Web_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Web_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Web_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Web_Suite" class="hide-methods passed suite-Web_Suite"> (hide)</a> <!-- hide-methods passed suite-Web_Suite -->
+                      <a href="#" panel-name="suite-Web_Suite" class="show-methods passed suite-Web_Suite"> (show)</a> <!-- show-methods passed suite-Web_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Web_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="addressAssertSite">addressAssertSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="birthdayTestSite">birthdayTestSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="commentToProductSite">commentToProductSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="orderAddBasketSite">orderAddBasketSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="orderDateSite">orderDateSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="productAmountSite">productAmountSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="purchaseNumberOrderSite">purchaseNumberOrderSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="sortByPriceUpSite">sortByPriceUpSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="sortToAlphabeticallyAtoZSite">sortToAlphabeticallyAtoZSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_Suite" title="tests.MainTests" hash-for-method="sortToAlphabeticallyZtoASite">sortToAlphabeticallyZtoASite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Web_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Web_Suite" class="panel Web_Suite">
+          <div class="suite-Web_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MainTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressAssertSite">
+                  </a> <!-- addressAssertSite -->
+                  <span class="method-name">addressAssertSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="birthdayTestSite">
+                  </a> <!-- birthdayTestSite -->
+                  <span class="method-name">birthdayTestSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentToProductSite">
+                  </a> <!-- commentToProductSite -->
+                  <span class="method-name">commentToProductSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderAddBasketSite">
+                  </a> <!-- orderAddBasketSite -->
+                  <span class="method-name">orderAddBasketSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderDateSite">
+                  </a> <!-- orderDateSite -->
+                  <span class="method-name">orderDateSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productAmountSite">
+                  </a> <!-- productAmountSite -->
+                  <span class="method-name">productAmountSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="purchaseNumberOrderSite">
+                  </a> <!-- purchaseNumberOrderSite -->
+                  <span class="method-name">purchaseNumberOrderSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByPriceUpSite">
+                  </a> <!-- sortByPriceUpSite -->
+                  <span class="method-name">sortByPriceUpSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortToAlphabeticallyAtoZSite">
+                  </a> <!-- sortToAlphabeticallyAtoZSite -->
+                  <span class="method-name">sortToAlphabeticallyAtoZSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortToAlphabeticallyZtoASite">
+                  </a> <!-- sortToAlphabeticallyZtoASite -->
+                  <span class="method-name">sortToAlphabeticallyZtoASite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_Suite-class-passed -->
+        </div> <!-- panel Web_Suite -->
+        <div panel-name="test-xml-Web_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\erhanorun\IdeaProjects\TestAutomationV1\SuiteXmlFiles\webSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; configfailurepolicy=&quot;continue&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Web Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Automation-Tests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.MainTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addressAssertSite&quot;/&gt;
+          &lt;include name=&quot;birthdayTestSite&quot;/&gt;
+          &lt;include name=&quot;commentToProductSite&quot;/&gt;
+          &lt;include name=&quot;purchaseNumberOrderSite&quot;/&gt;
+          &lt;include name=&quot;orderAddBasketSite&quot;/&gt;
+          &lt;include name=&quot;orderDateSite&quot;/&gt;
+          &lt;include name=&quot;sortToAlphabeticallyAtoZSite&quot;/&gt;
+          &lt;include name=&quot;sortToAlphabeticallyZtoASite&quot;/&gt;
+          &lt;include name=&quot;sortByPriceUpSite&quot;/&gt;
+          &lt;include name=&quot;productAmountSite&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.MainTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation-Tests --&gt;
+&lt;/suite&gt; &lt;!-- Web Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Web_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Web Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Automation-Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Web_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Web Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Web_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Web Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Web_Suite');
+function tableData_Web_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'orderAddBasketSite')
+data.setCell(0, 2, 'tests.MainTests')
+data.setCell(0, 3, 76392);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'purchaseNumberOrderSite')
+data.setCell(1, 2, 'tests.MainTests')
+data.setCell(1, 3, 45142);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addressAssertSite')
+data.setCell(2, 2, 'tests.MainTests')
+data.setCell(2, 3, 14620);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'commentToProductSite')
+data.setCell(3, 2, 'tests.MainTests')
+data.setCell(3, 3, 12188);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'productAmountSite')
+data.setCell(4, 2, 'tests.MainTests')
+data.setCell(4, 3, 12164);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'birthdayTestSite')
+data.setCell(5, 2, 'tests.MainTests')
+data.setCell(5, 3, 7349);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'orderDateSite')
+data.setCell(6, 2, 'tests.MainTests')
+data.setCell(6, 3, 4623);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sortToAlphabeticallyAtoZSite')
+data.setCell(7, 2, 'tests.MainTests')
+data.setCell(7, 3, 2351);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sortToAlphabeticallyZtoASite')
+data.setCell(8, 2, 'tests.MainTests')
+data.setCell(8, 3, 1917);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'sortByPriceUpSite')
+data.setCell(9, 2, 'tests.MainTests')
+data.setCell(9, 3, 1393);
+window.suiteTableData['Web_Suite']= { tableData: data, tableDiv: 'times-div-Web_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Web_Suite">
+              </div> <!-- times-div-Web_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Web_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Web Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Web_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.MainTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">logoutSite</span>
+                <br/>
+                <span class="ignored-method-name">loginWithPopUpSite</span>
+                <br/>
+                <span class="ignored-method-name">navigateSite</span>
+                <br/>
+                <span class="ignored-method-name">loginSite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Web_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MainTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.addressAssertSite())</span>
+                <span class="method-start">1936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressAssertSite</span>
+                <span class="method-start">1940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addressAssertSite status=SUCCESS method=MainTests.addressAssertSite()[pri:0, instan...)</span>
+                <span class="method-start">16561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.birthdayTestSite())</span>
+                <span class="method-start">16562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">birthdayTestSite</span>
+                <span class="method-start">16562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=birthdayTestSite status=SUCCESS method=MainTests.birthdayTestSite()[pri:0, instance...)</span>
+                <span class="method-start">23911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">commentToProductSite</span>
+                <span class="method-start">23912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.commentToProductSite())</span>
+                <span class="method-start">23912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=commentToProductSite status=SUCCESS method=MainTests.commentToProductSite()[pri:0, ...)</span>
+                <span class="method-start">36100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">purchaseNumberOrderSite</span>
+                <span class="method-start">36101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.purchaseNumberOrderSite())</span>
+                <span class="method-start">36101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.orderAddBasketSite())</span>
+                <span class="method-start">81243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=purchaseNumberOrderSite status=SUCCESS method=MainTests.purchaseNumberOrderSite()[p...)</span>
+                <span class="method-start">81243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">orderAddBasketSite</span>
+                <span class="method-start">81244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=orderAddBasketSite status=SUCCESS method=MainTests.orderAddBasketSite()[pri:0, inst...)</span>
+                <span class="method-start">157637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.orderDateSite())</span>
+                <span class="method-start">157637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderDateSite</span>
+                <span class="method-start">157637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=orderDateSite status=SUCCESS method=MainTests.orderDateSite()[pri:0, instance:tests...)</span>
+                <span class="method-start">162260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.sortToAlphabeticallyAtoZSite())</span>
+                <span class="method-start">162261 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortToAlphabeticallyAtoZSite</span>
+                <span class="method-start">162261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.sortToAlphabeticallyZtoASite())</span>
+                <span class="method-start">164613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortToAlphabeticallyAtoZSite status=SUCCESS method=MainTests.sortToAlphabeticallyAt...)</span>
+                <span class="method-start">164613 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">sortToAlphabeticallyZtoASite</span>
+                <span class="method-start">164613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortToAlphabeticallyZtoASite status=SUCCESS method=MainTests.sortToAlphabeticallyZt...)</span>
+                <span class="method-start">166530 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.sortByPriceUpSite())</span>
+                <span class="method-start">166531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortByPriceUpSite</span>
+                <span class="method-start">166531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortByPriceUpSite status=SUCCESS method=MainTests.sortByPriceUpSite()[pri:0, instan...)</span>
+                <span class="method-start">167924 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.MainTests.productAmountSite())</span>
+                <span class="method-start">167925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">productAmountSite</span>
+                <span class="method-start">167925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=productAmountSite status=SUCCESS method=MainTests.productAmountSite()[pri:0, instan...)</span>
+                <span class="method-start">180090 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">AfterClass</span>
+                <span class="method-start">180091 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">180977 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

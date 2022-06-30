@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="14" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="180869" started-at="2022-06-29T11:40:48 TRT" finished-at="2022-06-29T11:43:49 TRT">
+    <groups>
+    </groups>
+    <test name="Automation-Tests" duration-ms="180869" started-at="2022-06-29T11:40:48 TRT" finished-at="2022-06-29T11:43:49 TRT">
+      <class name="tests.MainTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.MainTests@2a556333]" name="beforeSuite" is-config="true" duration-ms="90" started-at="2022-06-29T11:40:48 TRT" finished-at="2022-06-29T11:40:48 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.MainTests@2a556333]" name="Setup" is-config="true" duration-ms="1825" started-at="2022-06-29T11:40:48 TRT" finished-at="2022-06-29T11:40:50 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2022-06-29T11:40:50 TRT" finished-at="2022-06-29T11:40:50 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.addressAssertSite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addressAssertSite()[pri:0, instance:tests.MainTests@2a556333]" name="addressAssertSite" duration-ms="14620" started-at="2022-06-29T11:40:50 TRT" finished-at="2022-06-29T11:41:05 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressAssertSite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-06-29T11:41:05 TRT" finished-at="2022-06-29T11:41:05 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addressAssertSite status=SUCCESS method=MainTests.addressAssertSite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-29T11:41:05 TRT" finished-at="2022-06-29T11:41:05 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.birthdayTestSite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="birthdayTestSite()[pri:0, instance:tests.MainTests@2a556333]" name="birthdayTestSite" duration-ms="7349" started-at="2022-06-29T11:41:05 TRT" finished-at="2022-06-29T11:41:12 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birthdayTestSite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-06-29T11:41:12 TRT" finished-at="2022-06-29T11:41:12 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=birthdayTestSite status=SUCCESS method=MainTests.birthdayTestSite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="commentToProductSite()[pri:0, instance:tests.MainTests@2a556333]" name="commentToProductSite" duration-ms="12188" started-at="2022-06-29T11:41:12 TRT" finished-at="2022-06-29T11:41:24 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentToProductSite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-29T11:41:12 TRT" finished-at="2022-06-29T11:41:12 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.commentToProductSite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-29T11:41:24 TRT" finished-at="2022-06-29T11:41:24 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=commentToProductSite status=SUCCESS method=MainTests.commentToProductSite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="purchaseNumberOrderSite()[pri:0, instance:tests.MainTests@2a556333]" name="purchaseNumberOrderSite" duration-ms="45142" started-at="2022-06-29T11:41:24 TRT" finished-at="2022-06-29T11:42:10 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseNumberOrderSite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-29T11:41:24 TRT" finished-at="2022-06-29T11:41:24 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.purchaseNumberOrderSite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-06-29T11:42:10 TRT" finished-at="2022-06-29T11:42:10 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.orderAddBasketSite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-29T11:42:10 TRT" finished-at="2022-06-29T11:42:10 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseNumberOrderSite status=SUCCESS method=MainTests.purchaseNumberOrderSite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="orderAddBasketSite()[pri:0, instance:tests.MainTests@2a556333]" name="orderAddBasketSite" duration-ms="76392" started-at="2022-06-29T11:42:10 TRT" finished-at="2022-06-29T11:43:26 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderAddBasketSite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:26 TRT" finished-at="2022-06-29T11:43:26 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderAddBasketSite status=SUCCESS method=MainTests.orderAddBasketSite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:26 TRT" finished-at="2022-06-29T11:43:26 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.orderDateSite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="orderDateSite()[pri:0, instance:tests.MainTests@2a556333]" name="orderDateSite" duration-ms="4623" started-at="2022-06-29T11:43:26 TRT" finished-at="2022-06-29T11:43:31 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderDateSite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:31 TRT" finished-at="2022-06-29T11:43:31 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderDateSite status=SUCCESS method=MainTests.orderDateSite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:31 TRT" finished-at="2022-06-29T11:43:31 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.sortToAlphabeticallyAtoZSite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sortToAlphabeticallyAtoZSite()[pri:0, instance:tests.MainTests@2a556333]" name="sortToAlphabeticallyAtoZSite" duration-ms="2351" started-at="2022-06-29T11:43:31 TRT" finished-at="2022-06-29T11:43:33 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortToAlphabeticallyAtoZSite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:33 TRT" finished-at="2022-06-29T11:43:33 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.sortToAlphabeticallyZtoASite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:33 TRT" finished-at="2022-06-29T11:43:33 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortToAlphabeticallyAtoZSite status=SUCCESS method=MainTests.sortToAlphabeticallyAtoZSite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="sortToAlphabeticallyZtoASite()[pri:0, instance:tests.MainTests@2a556333]" name="sortToAlphabeticallyZtoASite" duration-ms="1917" started-at="2022-06-29T11:43:33 TRT" finished-at="2022-06-29T11:43:35 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortToAlphabeticallyZtoASite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:35 TRT" finished-at="2022-06-29T11:43:35 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortToAlphabeticallyZtoASite status=SUCCESS method=MainTests.sortToAlphabeticallyZtoASite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:35 TRT" finished-at="2022-06-29T11:43:35 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.sortByPriceUpSite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sortByPriceUpSite()[pri:0, instance:tests.MainTests@2a556333]" name="sortByPriceUpSite" duration-ms="1393" started-at="2022-06-29T11:43:35 TRT" finished-at="2022-06-29T11:43:36 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPriceUpSite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-06-29T11:43:36 TRT" finished-at="2022-06-29T11:43:36 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortByPriceUpSite status=SUCCESS method=MainTests.sortByPriceUpSite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.MainTests@2a556333]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:36 TRT" finished-at="2022-06-29T11:43:36 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MainTests.productAmountSite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="productAmountSite()[pri:0, instance:tests.MainTests@2a556333]" name="productAmountSite" duration-ms="12164" started-at="2022-06-29T11:43:36 TRT" finished-at="2022-06-29T11:43:48 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAmountSite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MainTests@2a556333]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-29T11:43:48 TRT" finished-at="2022-06-29T11:43:48 TRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productAmountSite status=SUCCESS method=MainTests.productAmountSite()[pri:0, instance:tests.MainTests@2a556333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:tests.MainTests@2a556333]" name="AfterClass" is-config="true" duration-ms="870" started-at="2022-06-29T11:43:48 TRT" finished-at="2022-06-29T11:43:49 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.MainTests@2a556333]" name="afterSuite" is-config="true" duration-ms="233" started-at="2022-06-29T11:43:49 TRT" finished-at="2022-06-29T11:43:50 TRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.MainTests -->
+    </test> <!-- Automation-Tests -->
+  </suite> <!-- Web Suite -->
+</testng-results>

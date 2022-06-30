@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Web Suite]" parallel="tests">
+  <test thread-count="1" verbose="0" name="Automation-Tests(failed)" parallel="tests">
+    <classes>
+      <class name="tests.MainTests">
+        <methods>
+          <include name="orderNumberSite"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="Setup"/>
+          <include name="AfterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.MainTests -->
+    </classes>
+  </test> <!-- Automation-Tests(failed) -->
+</suite> <!-- Failed suite [Web Suite] -->
