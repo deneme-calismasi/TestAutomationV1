@@ -97,8 +97,8 @@ public class StorePage extends BaseMethods {
 
     public void productAmount() {
         navigateToSiteUrl();
-        waitForLoad();
         sleep(1);
+        waitForLoad();
         homePage.login();
         waitForLoad();
         clickElementByXpath("//*[@class='navigation']//*[@href='/magaza-87']");

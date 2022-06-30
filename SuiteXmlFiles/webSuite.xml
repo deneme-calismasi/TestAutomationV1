@@ -9,7 +9,7 @@
                 <methods>
 
                     <include name="addressAssertSite"/>
-<!--                    <include name="productReturnTestSite"/>-->
+                    <include name="productReturnTestSite"/>
                     <include name="commentToProductSite"/>
                     <include name="purchaseNumberOrderSite"/>
                     <include name="orderAddBasketSite"/>

@@ -95,6 +95,7 @@ public class OrderPage extends BaseMethods {
     public void orderAddBasket() {
         navigateToSiteUrl();
         homePage.login();
+        sleep(1);
         waitForLoad();
         clickElementByXpath("//*[@class='navigation']//*[@title='Mağaza']");
         scrollToElementByXpath("//*[@id='ProductPageProductList']//*[text()='test2Product']");

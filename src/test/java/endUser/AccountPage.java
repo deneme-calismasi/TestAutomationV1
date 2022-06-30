@@ -77,8 +77,15 @@ public class AccountPage extends BaseMethods {
         clickElementByClassName("menuIadeTaleplerim");
         clickElementByXpath("//*[@ng-click='ShowHideCreateClaim(false)']");
         findElementByXpath("//*[@id='slctOrder']/option[2]").click();
-        sleep(2);
-
+        waitForLoad();
+        findElementByXpath("//*[@name='slctCancelReason_0']/option[3]").click();
+        findElementByXpath("//*[@name='slctCancelType_0']/option[3]").click();
+        findElementByXpath("//*[@id='txtIban']").sendKeys(configuration.getProperty("iban_name"));
+        findElementByXpath("//*[@id='txtIbanNo']").sendKeys(configuration.getProperty("iban"));
+        findElementByXpath("//*[@id='txtNot']").sendKeys(configuration.getProperty("iban_comment"));
+        clickElementByXpath("//*[@class='hesabimUyelikBilgi yesilButon iadeTalebiKaydet ng-binding']");
+        clickElementByXpath("//*[@class='yesilButon iadeTalebiKaydet ng-binding']");
+        homePage.logout();
     }
 
 
