@@ -55,11 +55,11 @@ public class MainTests extends BaseTest {
         accountMethods.birthdayTest();
     }
 
-    @Test
-    public void productReturnTestSite() {
-        accountMethods = new AccountPage(driver);
-        accountMethods.productReturnTest();
-    }
+//    @Test
+//    public void productReturnTestSite() {
+//        accountMethods = new AccountPage(driver);
+//        accountMethods.productReturnTest();
+//    }
 
     @Test
     public void commentToProductSite() {
