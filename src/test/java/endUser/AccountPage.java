@@ -1,9 +1,6 @@
 package endUser;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import utilities.BaseMethods.BaseMethods;
 
@@ -87,6 +84,5 @@ public class AccountPage extends BaseMethods {
         clickElementByXpath("//*[@class='yesilButon iadeTalebiKaydet ng-binding']");
         homePage.logout();
     }
-
 
 }

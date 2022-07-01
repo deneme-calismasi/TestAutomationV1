@@ -37,7 +37,7 @@ public class Configuration {
 
         try {
             stream.close();
-        } catch (IOException ioe) {
+        } catch (IOException ignored) {
         }
 
     }

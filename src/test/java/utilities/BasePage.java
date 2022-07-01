@@ -31,7 +31,6 @@ public class BasePage {
     protected WebDriver driver;
     protected WebDriverWait wait;
     public Configuration configuration;
-
     protected Select select;
     protected Actions action;
 

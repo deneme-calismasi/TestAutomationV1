@@ -4,7 +4,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import utilities.BasePage;
-
 import java.util.*;
 import java.util.List;
 
@@ -45,15 +44,13 @@ public class Others extends BasePage {
         navigateToURL(configuration.getProperty("amazon_site"));
         List<WebElement> selectBox = driver.findElements(By.xpath("//*[@id='searchDropdownBox']/option"));
         ArrayList<String> selectBoxText = new ArrayList<>();
-        for (int i = 0; i < selectBox.size(); i++) {
-            selectBoxText.add(selectBox.get(i).getText());
+        for (WebElement box : selectBox) {
+            selectBoxText.add(box.getText());
         }
 
-        Iterator<String> iteratorSelectBoxText = selectBoxText.iterator();
-
-        while (iteratorSelectBoxText.hasNext()) {
+        for (String s : selectBoxText) {
             Select sel = new Select(findElementById("searchDropdownBox"));
-            sel.selectByVisibleText(iteratorSelectBoxText.next());
+            sel.selectByVisibleText(s);
             clickElementById("nav-search-submit-button");
             sleep(1000L);
         }

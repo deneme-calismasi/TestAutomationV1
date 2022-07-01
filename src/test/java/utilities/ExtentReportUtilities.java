@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 
 public class ExtentReportUtilities {
 
@@ -32,7 +33,7 @@ public class ExtentReportUtilities {
             FileInputStream fileInputStreamReader = new FileInputStream(file);
             byte[] bytes = new byte[(int) file.length()];
             fileInputStreamReader.read(bytes);
-            encodedfile = new String(Base64.encodeBase64(bytes), "UTF-8");
+            encodedfile = new String(Base64.encodeBase64(bytes), StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,13 +1,11 @@
 package utilities.BaseMethods;
 
-import endUser.HomePage;
-import endUser.OrderPage;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 import utilities.BasePage;
 
 import java.io.BufferedReader;
@@ -25,7 +23,6 @@ public class BaseMethods extends BasePage {
 
     Random random = new Random();
 
-    HomePage homePage = new HomePage(driver);
 
     boolean xpathElement = true;
 
